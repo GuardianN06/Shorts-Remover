@@ -27,8 +27,8 @@
             }
         });
     }
-    removeElements();
+    remove();
     window.scrollTo(0, 0);
 
-    setInterval(removeElements, 1000);
+    setInterval(remove, 1000);
 })();
